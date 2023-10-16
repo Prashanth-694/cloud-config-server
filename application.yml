@@ -2,11 +2,7 @@ spring:
   cloud:
     config:
        enabled: false
-  datasource:
-    url: jdbc:oracle:thin:@//localhost:1521/orcl
-    username: oracle
-    password: sarasu10
-    driver-class-name: oracle.jdbc.OracleDriver
+ 
     
 eureka:
   client:
