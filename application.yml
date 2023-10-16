@@ -1,4 +1,7 @@
 spring:
+  cloud:
+    config:
+       enabled: false
   datasource:
     url: jdbc:oracle:thin:@//localhost:1521/orcl
     username: oracle
